@@ -1553,7 +1553,7 @@ Tips:`echoColor green "hihy"`命令再次运行本脚本.
 `echoColor magenta "0)退出"`
 `echoColor skyBlue "............................................."`
 EOF
-read -p "请选择:" input
+input=1
 case $input in
 	1)	
 		install
